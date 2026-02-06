@@ -1,0 +1,77 @@
+/* general */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+div {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: inline-block; 
+}
+
+/*  cocina*/
+.kitchen {
+    background-color: #fff3e0;
+    border: 2px solid #e65100;
+}
+
+.kitchen__title { color: #e65100; }
+
+.kitchen__pot, .kitchen__plate, .kitchen__glass {
+    background-color: #4e4c48;
+}
+
+/* MODIFICADOR: Vaso */
+
+.kitchen__glass--dirty {
+    background-color: #8d6e63; 
+    color: white;
+    border: 2px dashed black;
+}
+
+
+/*  livingroom */
+.bedroom {
+    background-color: #e3f2fd; 
+    padding: 20px;
+    border: 2px solid #1565c0;
+}
+
+.bedroom__title { color: #1565c0; }
+
+.bedroom__closet, .bedroom__lamp, .bedroom__bed {
+    background-color: #bbdefb;
+}
+
+/* MODIFICADOR: Cama grande */
+
+.bedroom__bed--big {
+    font-size: 1.5em; 
+    padding: 20px;
+    font-weight: bold;
+    border: 3px solid #0d47a1;
+}
+
+
+/* sala */
+.livingroom {
+    background-color: #e8f5e9;
+    padding: 20px;
+    border: 2px solid #2e7d32;
+}
+
+.livingroom__title { color: #2e7d32; }
+
+.livingroom__sofa, .livingroom__tv, .livingroom__table {
+    background-color: #c8e6c9;
+}
+
+/* MODIFICADOR: Mesa nueva */
+
+.livingroom__table--new {
+    border: 3px solid gold;
+    background-color: #a5d6a7;
+    box-shadow: 0 0 10px gold; 
+}
